@@ -1,6 +1,6 @@
 name: Build and run unit/component tests
 on: 
-  push:
+  pull_request:
   workflow_dispatch:
 
 jobs:
@@ -25,7 +25,7 @@ jobs:
         run: go build -v ./...
 
       - name: Run Unit and Component Tests
-        continue-on-error: true
+        # continue-on-error: true
         run: gotestsum --junitfile TestResults-unit-tests.xml
 
       - name: Upload Go test results
