@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="1" errors="0" time="0.365726">
+	<testsuite tests="2" failures="1" time="0.004000" name="github.com/eric3et/ci-cd-project" timestamp="2024-05-29T21:27:13-07:00">
+		<properties>
+			<property name="go.version" value="go1.22.2 linux/amd64"></property>
+		</properties>
+		<testcase classname="github.com/eric3et/ci-cd-project" name="TestAverageComponentFail" time="0.000000">
+			<failure message="Failed" type="">=== RUN   TestAverageComponentFail&#xA;    unit_test.go:18: &#xA;        &#x9;Error Trace:&#x9;/home/eric/git/ci-cd-project/unit_test.go:18&#xA;        &#x9;Error:      &#x9;Not equal: &#xA;        &#x9;            &#x9;expected: int(1)&#xA;        &#x9;            &#x9;actual  : float64(3.14)&#xA;        &#x9;Test:       &#x9;TestAverageComponentFail&#xA;--- FAIL: TestAverageComponentFail (0.00s)&#xA;</failure>
+		</testcase>
+		<testcase classname="github.com/eric3et/ci-cd-project" name="TestAverageComponentPass" time="0.000000"></testcase>
+	</testsuite>
+</testsuites>
