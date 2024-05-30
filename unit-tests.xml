@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="2" failures="1" errors="0" time="0.365726">
-	<testsuite tests="2" failures="1" time="0.004000" name="github.com/eric3et/ci-cd-project" timestamp="2024-05-29T21:27:13-07:00">
+<testsuites tests="2" failures="1" errors="0" time="0.349883">
+	<testsuite tests="2" failures="1" time="0.003000" name="github.com/eric3et/ci-cd-project" timestamp="2024-05-29T21:54:55-07:00">
 		<properties>
 			<property name="go.version" value="go1.22.2 linux/amd64"></property>
 		</properties>
