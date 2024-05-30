@@ -7,7 +7,7 @@ import (
 )
 
 func TestAverageComponentPass(t *testing.T) {
-	// 1
+	// 12
 	input := []float64{3.14, 3.14, 3.14}
 
 	assert.Equal(t, 3.14, average(input))
